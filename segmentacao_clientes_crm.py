@@ -9,7 +9,7 @@ import pandas as pd
 from datetime import datetime
 
 # Conectar ao banco de dados MySQL via ODBC usando DSN
-dsn_name = 'nomedsn'
+dsn_name = 'nomeddsn'
 conn = pyodbc.connect(f'DSN={dsn_name};')
 
 # Etapa 1: Consulta para obter os dados necessários
